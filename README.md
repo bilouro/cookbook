@@ -1,1 +1,34 @@
-# cookbook
+# DevOps Cookbooks Index
+
+A curated collection of copy-paste ready cookbooks for common DevOps tasks.  
+Each cookbook is:
+
+- Self-contained  
+- Opinionated with sane defaults  
+- Written in a step-by-step format  
+- Safe to version-control and review via pull requests  
+
+---
+
+## Cookbook Menu
+
+Tip: Start with the Jenkins cookbook if you’re setting up CI/CD locally on macOS.
+
+### CI/CD
+
+| Tool    | Scenario                              | Cookbook Link        |
+|--------:|---------------------------------------|----------------------|
+| Jenkins | Run Jenkins on macOS using Docker     | [Jenkins Cookbook](jenkins.MD) |
+
+---
+
+## Repository Layout (Suggested)
+
+Although this repo can grow organically, a clean structure makes it easier to scale:
+
+```text
+.
+├─ README.md          # This index file
+├─ jenkins.MD         # Jenkins on macOS with Docker cookbook
+├─ <tool>.MD          # Future cookbooks (e.g., gitlab-ci.MD, argocd.MD, etc.)
+└─ assets/            # Optional: diagrams, screenshots, shared snippets
