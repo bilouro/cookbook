@@ -18,7 +18,7 @@ Tip: Start with the Jenkins cookbook if you’re setting up CI/CD locally on mac
 
 | Tool    | Scenario                                             | Cookbook Link                                                                 |
 |--------:|------------------------------------------------------|-------------------------------------------------------------------------------|
-| Jenkins | Run Jenkins on macOS using Docker                    | [Jenkins Cookbook](jenkins.MD)                                               |
+| Jenkins | Run Jenkins using Docker                    | [Jenkins Cookbook](jenkins.MD)                                               |
 | Jenkins | Jenkins + Docker + Flask (3 environments)   | [Jenkins + Docker + Flask Cookbook](https://github.com/bilouro/cookbook/blob/main/Jenkins_Docker_Flask.MD) |
 
 ### Databases
