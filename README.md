@@ -20,6 +20,12 @@ Tip: Start with the Jenkins cookbook if you’re setting up CI/CD locally on mac
 |--------:|---------------------------------------|----------------------|
 | Jenkins | Run Jenkins on macOS using Docker     | [Jenkins Cookbook](jenkins.MD) |
 
+### Databases
+
+| Tool    | Scenario                              | Cookbook Link        |
+|--------:|---------------------------------------|----------------------|
+| PostgreSQL | Run PostgreSQL on macOS using Docker     | [PostgreSQL Cookbook](postgresql.MD) |
+
 ---
 
 ## Repository Layout (Suggested)
