@@ -762,6 +762,7 @@ With this cookbook, together with:
 
 - Jenkins-on-macOS Cookbook: <https://github.com/bilouro/cookbook/blob/main/jenkins.MD>
 - FlaskProject: <https://github.com/bilouro/FlaskProject>
+- PostgreSQL: <https://github.com/bilouro/cookbook/blob/main/postgresql.MD>
 
 you have a full CI/CD pipeline with 3 environments (`dev`, `test`, `prod`) driven by:
 
