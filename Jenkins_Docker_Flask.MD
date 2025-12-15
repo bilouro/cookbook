@@ -34,7 +34,7 @@
 
 #### Postgres
 
-- One container: `postgres-db`. (https://github.com/bilouro/cookbook/blob/main/jenkins.MD)
+- One container: `postgres-db`. (https://github.com/bilouro/cookbook/blob/main/postgresql.MD)
 - Three databases inside the same Postgres instance:
   - `app_db_dev`
   - `app_db_test`
