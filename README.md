@@ -16,15 +16,16 @@ Tip: Start with the Jenkins cookbook if you’re setting up CI/CD locally on mac
 
 ### CI/CD
 
-| Tool    | Scenario                              | Cookbook Link        |
-|--------:|---------------------------------------|----------------------|
-| Jenkins | Run Jenkins on macOS using Docker     | [Jenkins Cookbook](jenkins.MD) |
+| Tool    | Scenario                                             | Cookbook Link                                                                 |
+|--------:|------------------------------------------------------|-------------------------------------------------------------------------------|
+| Jenkins | Run Jenkins on macOS using Docker                    | [Jenkins Cookbook](jenkins.MD)                                               |
+| Jenkins | Jenkins + Docker + Flask (3 environments on macOS)   | [Jenkins + Docker + Flask Cookbook](https://github.com/bilouro/cookbook/blob/main/Jenkins_Docker_Flask.MD) |
 
 ### Databases
 
-| Tool    | Scenario                              | Cookbook Link        |
-|--------:|---------------------------------------|----------------------|
-| PostgreSQL | Run PostgreSQL on macOS using Docker     | [PostgreSQL Cookbook](postgresql.MD) |
+| Tool       | Scenario                              | Cookbook Link              |
+|-----------:|---------------------------------------|----------------------------|
+| PostgreSQL | Run PostgreSQL on macOS using Docker | [PostgreSQL Cookbook](postgresql.MD) |
 
 ---
 
@@ -34,7 +35,8 @@ Although this repo can grow organically, a clean structure makes it easier to sc
 
 ```text
 .
-├─ README.md          # This index file
-├─ jenkins.MD         # Jenkins on macOS with Docker cookbook
-├─ <tool>.MD          # Future cookbooks (e.g., gitlab-ci.MD, argocd.MD, etc.)
-└─ assets/            # Optional: diagrams, screenshots, shared snippets
+├─ README.md                 # This index file
+├─ jenkins.MD                # Jenkins on macOS with Docker cookbook
+├─ Jenkins_Docker_Flask.MD   # Jenkins + Docker + Flask (3 environments) cookbook
+├─ <tool>.MD                 # Future cookbooks (e.g., gitlab-ci.MD, argocd.MD, etc.)
+└─ assets/                   # Optional: diagrams, screenshots, shared snippets
